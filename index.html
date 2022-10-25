@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="Autor" content="João Colonna">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>FILMES</title>
+</head>
+<body>
+<header>
+    <a href="index.html"><img class="logo" src="logo.png"></a>
+    <nav>
+    <ul>
+    <li><a href="#" class="nav">Filmes</a></li>
+    <li><a href="#" class="nav">Séries</a></li>
+    <li><a href="#" class="nav">Documentários</a></li>
+    <li><a href="#" class="nav">Podcasts</a></li>
+    <li><a href="#cadastro" class="nav">Cadastro</a></li>
+    </ul>
+    </nav>
+</header>
+<h2>Filmes em Destaque</h2>
+<section class="destaques">
+    <div class="filme">
+        <a class="imghover" href="#"><img class="capafilme" src="filme1.jpg"></a>
+
+        <h4 class="titulofilme">Interestelar</h4>
+        <p class="descricao">As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie.</p>
+    </div>
+    <div class="filme">
+        <a class="imghover" href="#"><img class="capafilme" src="filme2.jpg"></a>
+        <h4>Morbius</h4>
+        <p class="descricao">O bioquímico Michael Morbius tenta curar-se de uma doença rara no sangue mas, sem perceber, ele fica infectado com uma forma de vampirismo.</p>
+    </div>
+    <div class="filme">
+        <a class="imghover" href="#"><img class="capafilme" src="filme3.jpg"></a>
+        <h4>Doutor Estranho</h4>
+        <p class="descricao">Além de receber ajuda de novos aliados místicos e outros já conhecidos do público, Doutor Estranho atravessa as realidades alternativas incompreensíveis e perigosas do Multiverso para enfrentar um novo e misterioso adversário.</p>
+    </div>
+    <div class="filme">
+        <a class="imghover" href="#"><img class="capafilme" src="filme4.jpg"></a>
+        <h4>Sonic 2</h4>
+        <p class="descricao">O Dr. Robotnik retorna à procura de uma esmeralda mística que tem o poder de destruir civilizações. Para detê-lo, Sonic se une a seu antigo parceiro, Tails, e parte em uma jornada para encontrar a joia antes que ela caia em mãos erradas.</p>
+    </div>
+    <div class="filme">
+        <a class="imghover" href="#"><img class="capafilme" src="filme5.jpg"></a>
+        <h4>The Batman</h4>
+        <p class="descricao">Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City. Com poucos aliados confiáveis, o vigilante solitário se estabelece como a personificação da vingança para a população.</p>
+    </div>
+</section>
+<div class="clear"></div>
+<section class="cadastro" id="cadastro">
+    
+    <form action="mailto:joao.colonna@fatec.sp.gov.br" method="GET">
+        <legend>Cadastro</legend>
+        <label>Nome:</label><br>
+        <input class="nome" type="text" required placeholder="ex: João"><br>
+        <label>Email:</label><br>
+        <input class="email" type="email" required placeholder="ex: email@email.com"><br>
+        <label>Senha</label><br>
+        <input class="password" type="password" required placeholder="123!@#acbABC" minlength="8"><br>
+        <label>Celular:</label><br>
+        <input class="celular" type="text" required placeholder="(00) 00000-0000" maxlength="11" autocomplete="off"><br>
+        <label>Deixe a sua opinião:</label><br>
+        <textarea class="msg" cols="35" rows="8"></textarea><br>
+        <input type="checkbox" class="checkbox"><label class="textochkbox">Eu aceito receber notificações de novidades e promoções</label><br><br>
+        <label>
+            Dê sua nota:
+            <select required name="nota">
+                <option value="um">1</option>
+                <option value="dois">2</option>
+                <option value="tres">3</option>
+                <option value="quatro">4</option>
+                <option value="quatro" selected>5</option>
+            </select><br>
+        <input class="enviar" type="submit" value="Enviar">
+    </form>
+</section>
+<div class="rodape">
+<footer>
+    <p class="pfooter">Todos os direitos reservados</p>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,177 @@
+
+/*Para a experiencia real do site, veja em resoluções acima de 1600x900, de preferencia fullHD (1920x1080)*/
+body{
+    background-color: #000;
+}
+header{
+    height: 140px;
+    width: 100%;
+}
+nav{
+    /*#F6B042 | #533549*/
+    background-color: green;
+    height:auto;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+ul{ 
+    text-align: right;
+    font-size: 20px;
+    margin: 18px;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 30px;
+    display: inline;
+}
+a.nav:hover{
+    text-decoration: bolder;
+    color: white;
+}
+li a.nav{
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+}
+img.logo{
+    top: -20px;
+    left: -10px;
+    position: fixed;
+    width: 160px;
+    z-index: 2;
+}
+div.clear{
+    clear: both;
+}
+
+/* telas e caixas dos filmes*/
+
+h2, h4{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+section.destaques{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+}
+div.filme{
+    float: left;
+    width: 300px;
+    height: 400px;
+    margin: 0.8em 1em;
+}
+img.capafilme{
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: 370px;
+}
+a.imghover img{
+    -webkit-transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+}
+a.imghover:hover > img.capafilme{
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+}
+p{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Tela cadastro formulário*/
+
+section.cadastro{
+    width:100%;
+    height:1000px;
+    display: grid;
+    justify-content: center;
+    position:static;
+}
+form{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+fieldset{
+    width:700px;
+    height:300px;
+    
+}
+legend{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+label{
+    margin-left: 30px;
+}
+input.checkbox{
+    margin-left: 20px;
+}
+label.textochkbox{
+    font-size: 13px;
+    margin: 0;
+}
+input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+input.nome, .email, .password{
+    width: 500px;
+    height: 50px;
+    margin: 0px 20px 20px 20px;
+    border-radius: 10px;
+    background-color: rgb(224, 224, 224);
+}
+input.celular{
+    width: 150px;
+    height: 25px;
+    margin: 0px 20px 20px 20px;
+    border-radius: 10px;
+    background-color: rgb(224, 224, 224);
+}
+textarea.msg{
+    margin: 0px 20px 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(224, 224, 224);
+}
+input.enviar{
+    width: 100px;
+    height: 40px;
+    margin: 20px 20px 50px 20px;
+    border-radius: 12px;
+    float: right;
+
+}
+input.enviar:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+/*footer*/
+
+footer{
+    background-color: green;
+    width: 100%;
+    left: 0;
+    height: 50px;
+    position: absolute;
+}
+p.pfooter{
+    text-align: center;
+}
